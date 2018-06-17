@@ -3,7 +3,7 @@
 
 const char* ssid     = "...";
 const char* password = "...";
-const char* host = "steckdosenleiste";
+const char* host = "...";
 
 
 mPower device = mPower(host);
