@@ -12,6 +12,8 @@ class mPower {
         bool getStatus();
         // set ports updates all ports. can be set by setting the public variable enable.
         bool setPorts();
+        // makes the current setting the default setting after startup
+        bool setDefault();
 
         bool getPort(unsigned char port);
         bool setPort(unsigned char port, bool status);
